@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+	
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Quicksand', sans-serif;
+	background: #f1f1f1;
+	color: rgba(52,73,94,1);
+}
+
+a, a:active, a:visited {
+	color: rgba(52,73,94,90);
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px #368E70 solid;
+}
+
+h1 {
+	padding-top: 0.5em;
+	border-top: 3em rgba(209,0,0,0.80) solid;
+}
+
+.circle {
+	background: url(/cs.jpg) no-repeat center;
+    background-size: 100% 100%;
+	clear: none;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center; 
+}
+
+
+@media screen and (max-width: 1920px){
+	body {
+		width: 1140px;
+		margin: 0 auto;
+		padding-top: 7.5em;
+	}
+	
+	h1, p {
+		width: 10em;
+		float: right;
+		clear: none;
+		font-size: 2.5em;
+	}
+	
+	.col-left, .col-right {
+		width: 50%;
+		clear: none;
+	}
+	
+	.col-left {
+		float: left;
+	}
+	
+	.col-right {
+		float: right;
+	}
+	
+	.circle {
+		width: 40em;
+		height: 40em;
+		border-radius: 20em;
+		-webkit-border-radius: 20em;
+		-moz-border-radius: 20em;
+	}
+	
+	figcaption {
+		width: 26.25em;
+		margin-top: 1.5em;
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 1440px){	
+	body {
+		width: 768px;
+		padding-top: 5em;
+	}
+	
+	h1, p {
+		font-size: 1.75em;
+	}
+	
+	.circle {
+		width: 26em;
+		height: 26em;
+		border-radius: 13em;
+		-webkit-border-radius: 13em;
+		-moz-border-radius: 13em;
+	}
+	
+	figcaption {
+		width: 21em;
+		margin-top: 1em;
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 940px){
+	body {
+		width: 480px;
+		padding-top: 2.5em;
+	}
+	
+	h1, p {
+		font-size: 1.25em;
+		max-width: 12.5em;
+		margin: 0.5em 0 0.5em 0;
+	}
+	
+	.circle {
+		width: 14em;
+		height: 14em;
+		border-radius: 7em;
+		-webkit-border-radius: 7em;
+		-moz-border-radius: 7em;
+	}
+	
+	figcaption {
+		width: 14em;
+		margin-top: 1em;
+		font-size: 1em;
+	}
+}
